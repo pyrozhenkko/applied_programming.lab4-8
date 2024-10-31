@@ -14,8 +14,4 @@ public class CreateRoom implements Command {
     public void execute(DataBase dataBase) {
         dataBase.createRoom(rooms);
     }
-    public void getInfo(){
-        System.out.println("Create Room");
-    }
-
 }

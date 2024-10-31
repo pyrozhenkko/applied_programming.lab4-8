@@ -15,6 +15,7 @@ public class DeleteToy implements Command {
     }
 
     public void execute(DataBase dataBase) {
+        dataBase.showToys(toys);
         dataBase.deleteToy(toys);
     }
 }

@@ -1,5 +1,8 @@
 package command;
 
 public interface Command{
-    public void execute(DataBase dataBase);
+    void execute(DataBase dataBase);
+    default String getInfo(){
+        return "";
+    }
 }
