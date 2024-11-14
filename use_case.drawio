@@ -1,0 +1,115 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Сторінка-1" id="hzx1j3mXwjkq4ESoM_oJ">
+    <mxGraphModel dx="1723" dy="2344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#cfd9f7" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-20" value="Show available toys" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="406" y="-62" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-24" value="" style="rounded=0;html=1;rotation=90;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry y="320" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="50" y="300" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-25" value="Show available rooms" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="439" y="84" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-27" value="Prepare room&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;with toys" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="283" y="-194" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-29" value="More informatioan" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="287" y="429" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.472;exitY=-0.001;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=#182E3E;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=default;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-39" value="Find toys by features" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="83" y="-131" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-42" value="Sort toys by weight" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="382" y="207" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-47" value="Create toy" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="745" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#182E3E;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=default;" parent="1" source="ohRxS4509cFZJ3ywJuA2-29" target="ohRxS4509cFZJ3ywJuA2-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="600" as="sourcePoint" />
+            <mxPoint x="700" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-49" value="Create room" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="748" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#182E3E;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=default;" parent="1" source="ohRxS4509cFZJ3ywJuA2-29" target="ohRxS4509cFZJ3ywJuA2-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="490" as="sourcePoint" />
+            <mxPoint x="710" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-51" value="Delete toy" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="748" y="606" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#182E3E;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=default;" parent="1" source="ohRxS4509cFZJ3ywJuA2-29" target="ohRxS4509cFZJ3ywJuA2-51" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="720" as="sourcePoint" />
+            <mxPoint x="700" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-53" value="Delete room" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="745" y="737" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohRxS4509cFZJ3ywJuA2-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#182E3E;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-29" target="ohRxS4509cFZJ3ywJuA2-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="700" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIAY1xlSkNg5oK1avSxn-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="337" as="sourcePoint" />
+            <mxPoint x="435" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIAY1xlSkNg5oK1avSxn-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="337" as="sourcePoint" />
+            <mxPoint x="435" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIAY1xlSkNg5oK1avSxn-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="337" as="sourcePoint" />
+            <mxPoint x="435" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIAY1xlSkNg5oK1avSxn-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="457" y="322" as="sourcePoint" />
+            <mxPoint x="545" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIAY1xlSkNg5oK1avSxn-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="ohRxS4509cFZJ3ywJuA2-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="283" as="sourcePoint" />
+            <mxPoint x="545" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SzQgLP3LGZCrpSYmy2m-2" value="Sort toys by price" style="ellipse;html=1;fillColor=#56517E;strokeColor=#EEEEEE;shadow=1;snapToPoint=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;align=center;fontStyle=2;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="287" y="318" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4SzQgLP3LGZCrpSYmy2m-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ohRxS4509cFZJ3ywJuA2-24" target="4SzQgLP3LGZCrpSYmy2m-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="278" as="sourcePoint" />
+            <mxPoint x="725" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

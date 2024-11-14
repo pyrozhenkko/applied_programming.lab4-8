@@ -1,0 +1,192 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram id="mN7_alwoavVF7DgKrOtG" name="Сторінка-1">
+    <mxGraphModel dx="1456" dy="2358" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#D5E8D4" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;AgeGroup&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- AgeGroup(String, int, int): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ YOUTH: &lt;br/&gt;+ TEENAGERS: &lt;br/&gt;- minAge: int&lt;br/&gt;- maxAge: int&lt;br/&gt;+ CHILDREN: &lt;br/&gt;- description: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ values(): AgeGroup[]&lt;br/&gt;+ getDescription(): String&lt;br/&gt;+ getAgeGroupByAge(int): AgeGroup&lt;br/&gt;+ valueOf(String): AgeGroup&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="-140" width="263" height="307" as="geometry" />
+        </mxCell>
+        <mxCell id="node15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Command&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ execute(DataBase): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1594" y="1980" width="198" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="node21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateRoom&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CreateRoom(List&amp;lt;Room&amp;gt;): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- rooms: List&amp;lt;Room&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ execute(DataBase): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1858" y="1738" width="217" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="node20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateToy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CreateToy(List&amp;lt;Toy&amp;gt;): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- toys: List&amp;lt;Toy&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ execute(DataBase): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1415" y="1702" width="198" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DataBase&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ DataBase(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;~ scan: Scanner&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ sortToysBy(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ calculateTotalPrice(List&amp;lt;Toy&amp;gt;): double&lt;br/&gt;+ deleteToy(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ showRooms(List&amp;lt;Room&amp;gt;, boolean): void&lt;br/&gt;+ chooseToys(List&amp;lt;Toy&amp;gt;): List&amp;lt;Toy&amp;gt;&lt;br/&gt;- getToyDetails(IdentityToy): Toy&lt;br/&gt;+ sortingToysByPrice(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ deleteRoom(List&amp;lt;Room&amp;gt;): void&lt;br/&gt;+ showSortToysBy(): void&lt;br/&gt;+ prepareRoomWithToysAdding(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ createToy(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ showToys(List&amp;lt;Toy&amp;gt;, boolean): void&lt;br/&gt;+ sortingToysByWeight(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ createDoll(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ findToyByFeatures(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ createCar(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ createRoom(List&amp;lt;Room&amp;gt;): void&lt;br/&gt;+ prepareRoomWithToys(List&amp;lt;Toy&amp;gt;, List&amp;lt;Room&amp;gt;): void&lt;br/&gt;+ createBlocks(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ menuAdding(): void&lt;br/&gt;+ createPuzzles(List&amp;lt;Toy&amp;gt;): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1537" y="2210" width="382" height="595" as="geometry" />
+        </mxCell>
+        <mxCell id="node7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FileUtils&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ FileUtils(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ saveRooms(List&amp;lt;Room&amp;gt;, String): void&lt;br/&gt;+ saveToys(List&amp;lt;Toy&amp;gt;, String): void&lt;br/&gt;+ loadToys(String): List&amp;lt;Toy&amp;gt;?&lt;br/&gt;+ loadRooms(String): List&amp;lt;Room&amp;gt;?&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="2200" width="284" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="node14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;IdentityToy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ IdentityToy(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ PUZZLE: &lt;br/&gt;+ BALL: &lt;br/&gt;+ DOLL: &lt;br/&gt;+ CAR: &lt;br/&gt;+ BLOCKS: &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ values(): IdentityToy[]&lt;br/&gt;+ valueOf(String): IdentityToy&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="280" width="217" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="node0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Room&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Room(String, double, List&amp;lt;Toy&amp;gt;, int, double): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- maxToyQuantity: int&lt;br/&gt;- maxPriceForToys: double&lt;br/&gt;- toys: List&amp;lt;Toy&amp;gt;&lt;br/&gt;- roomName: String&lt;br/&gt;- size: double&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ setSize(double): void&lt;br/&gt;+ getMaxToyQuantity(): int&lt;br/&gt;+ setToys(List&amp;lt;Toy&amp;gt;): void&lt;br/&gt;+ setRoomName(String): void&lt;br/&gt;+ getMaxPriceForToys(): double&lt;br/&gt;+ getToys(): List&amp;lt;Toy&amp;gt;&lt;br/&gt;+ show(): void&lt;br/&gt;+ setMaxToyQuantity(int): void&lt;br/&gt;+ getSize(): double&lt;br/&gt;+ getRoomName(): String&lt;br/&gt;+ setMaxPriceForToys(double): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="-580" width="335" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="node1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Toy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Toy(IdentityToy, String, double, int, double, AgeGroup): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;# ageGroup: AgeGroup&lt;br/&gt;# code: String&lt;br/&gt;# weight: int&lt;br/&gt;# identityToy: IdentityToy&lt;br/&gt;# price: double&lt;br/&gt;# size: double&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ setPrice(double): void&lt;br/&gt;+ getSize(): double&lt;br/&gt;+ getCode(): String&lt;br/&gt;+ getIdentityToy(): IdentityToy&lt;br/&gt;+ setWeight(int): void&lt;br/&gt;+ getAgeGroup(): AgeGroup&lt;br/&gt;+ show(): void&lt;br/&gt;+ setIdentityToy(IdentityToy): void&lt;br/&gt;+ getWeight(): int&lt;br/&gt;+ setAgeGroup(AgeGroup): void&lt;br/&gt;+ getPrice(): double&lt;br/&gt;+ setSize(double): void&lt;br/&gt;+ setCode(String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1677" width="398" height="523" as="geometry" />
+        </mxCell>
+        <mxCell id="node11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ToyCar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ToyCar(IdentityToy, String, double, int, double, AgeGroup, String, boolean): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- isElectric: boolean&lt;br/&gt;- color: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ setColor(String): void&lt;br/&gt;+ getColor(): String&lt;br/&gt;+ isElectric(): boolean&lt;br/&gt;+ show(): void&lt;br/&gt;+ setElectric(boolean): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="-30" width="420" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="node17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ToyDoll&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ToyDoll(IdentityToy, String, double, int, double, AgeGroup, String, String, Boolean, String): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- hasAccessories: Boolean&lt;br/&gt;- sex: String&lt;br/&gt;- colorEye: String&lt;br/&gt;- colorHair: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ getColorEye(): String&lt;br/&gt;+ getColorHair(): String&lt;br/&gt;+ getHasAccessories(): Boolean&lt;br/&gt;+ setSex(String): void&lt;br/&gt;+ setColorHair(String): void&lt;br/&gt;+ getSex(): String&lt;br/&gt;+ show(): void&lt;br/&gt;+ setColorEye(String): void&lt;br/&gt;+ setHasAccessories(Boolean): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="2357" y="420" width="404" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="node12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ToyPuzzle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ToyPuzzle(int, IdentityToy, String, double, int, double, AgeGroup): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;~ piecesCount: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ show(): void&lt;br/&gt;+ getPiecesCount(): int&lt;br/&gt;+ setPiecesCount(int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="696" width="421" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#A8201A;exitX=0.464;exitY=0.022;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;exitPerimeter=0;" parent="1" source="PBpQneOX7ebDW0RPB0zt-2" target="node1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1092" />
+              <mxPoint x="1100" y="950" />
+              <mxPoint x="1210" y="950" />
+              <mxPoint x="1210" y="523" />
+            </Array>
+            <mxPoint x="1100.5000000000005" y="1060" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#A8201A;exitX=1.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="node11" target="node1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2640" y="340" />
+              <mxPoint x="2200" y="340" />
+              <mxPoint x="2200" y="630" />
+              <mxPoint x="1889" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#A8201A;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="node17" target="node1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2559" y="1053" />
+              <mxPoint x="1889" y="1053" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DatabaseRunner&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ DatabaseRunner(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- toys: List&amp;lt;Toy&amp;gt;&lt;br/&gt;- moreInfoActions: Map&amp;lt;String, Command&amp;gt;&lt;br/&gt;- menuActions: Map&amp;lt;String, Command&amp;gt;&lt;br/&gt;- database: DataBase&lt;br/&gt;- rooms: List&amp;lt;Room&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ main(String[]): void&lt;br/&gt;+ menuMoreInfo(): void&lt;br/&gt;+ menu(): void&lt;br/&gt;- initializeMoreInfoActions(): void&lt;br/&gt;+ menuPanel(): void&lt;br/&gt;- initializeMenuActions(): void&lt;br/&gt;+ menuMoreInfoPanel(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
+          <mxGeometry x="2001.5" y="2200" width="310" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node12" target="node1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="860" as="sourcePoint" />
+            <mxPoint x="1810" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-5" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.394;entryY=0.995;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;entryPerimeter=0;" parent="1" source="node1" target="node0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1630" y="-30" as="sourcePoint" />
+            <mxPoint x="1790" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node13" target="node1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1740" y="80" as="sourcePoint" />
+            <mxPoint x="1900" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node14" target="node1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1670" y="190" as="sourcePoint" />
+            <mxPoint x="1700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="node9" target="node7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1530" y="2180" as="sourcePoint" />
+            <mxPoint x="1520" y="2522" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1364" y="2508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.823;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node8" target="node15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1600" y="2120" as="sourcePoint" />
+            <mxPoint x="1760" y="2120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2109" y="2130" />
+              <mxPoint x="1792" y="2130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.445;exitY=0;exitDx=0;exitDy=0;entryX=0.611;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node9" target="node15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1450" y="2340" as="sourcePoint" />
+            <mxPoint x="1711" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-26" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node21" target="node15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2085" y="2250" as="sourcePoint" />
+            <mxPoint x="1768" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node20" target="node15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2320" y="2000" as="sourcePoint" />
+            <mxPoint x="1842" y="2030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1504" y="1897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-29" value="" style="endArrow=open;endFill=1;html=1;rounded=0;exitX=1;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node8" target="node0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2240" y="2050" as="sourcePoint" />
+            <mxPoint x="2400" y="2050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3050" y="2239" />
+              <mxPoint x="3090" y="-510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-30" value="" style="endArrow=open;endFill=1;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node8" target="node1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2350" y="2370" as="sourcePoint" />
+            <mxPoint x="3100" y="2289" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3330" y="2289" />
+              <mxPoint x="3330" y="-630" />
+              <mxPoint x="1650" y="-640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-32" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1.003;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node9" target="node1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1920" y="2230" as="sourcePoint" />
+            <mxPoint x="2080" y="2230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3560" y="2650" />
+              <mxPoint x="3550" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-33" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.996;exitY=0.763;exitDx=0;exitDy=0;entryX=0.991;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" source="node9" target="node0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1929" y="2666" as="sourcePoint" />
+            <mxPoint x="2086" y="291" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3570" y="2660" />
+              <mxPoint x="3570" y="-155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwnLRicwnhVwvhqANcBZ-34" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=0.995;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node9" target="node8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1812" y="2343" as="sourcePoint" />
+            <mxPoint x="1972" y="2343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBpQneOX7ebDW0RPB0zt-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ToyBlocks&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ToyBlocks(int, IdentityToy, String, double, int, double, AgeGroup): &lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;~ piecesCount: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ show(): void&lt;br&gt;+ getPiecesCount(): int&lt;br&gt;+ setPiecesCount(int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="880" y="994" width="421" height="207" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -7,10 +7,14 @@ import java.util.*;
 import static java.util.Collections.*;
 
 public class DataBase {
+<<<<<<< Updated upstream
     Scanner scan = new Scanner(System.in);
     public void setScanner(Scanner scanner) {
         this.scan = scanner;
     }
+=======
+    public Scanner scan = new Scanner(System.in);
+>>>>>>> Stashed changes
     public void createToy(List<Toy> toys) {
         System.out.println("Enter identity of the toy: \n");
         System.out.print("1 Blocks\n");
@@ -33,8 +37,12 @@ public class DataBase {
                 createPuzzles(toys);
                 break;
             case "5":
+<<<<<<< Updated upstream
                 DatabaseRunner.menuPanel();
                 break;
+=======
+                return;
+>>>>>>> Stashed changes
             default:
                 System.out.println("Invalid choice. Please try again.");
                 createToy(toys);
@@ -43,7 +51,7 @@ public class DataBase {
 
     }
 
-    private Toy getToyDetails(IdentityToy identityToy) {
+    Toy getToyDetails(IdentityToy identityToy) {
         System.out.println("Enter toy code: ");
         String code = scan.nextLine();
 
@@ -132,7 +140,7 @@ public class DataBase {
 
         System.out.println("Enter quantity of the pieces: \n");
         int quantity = scan.nextInt();
-        scan.nextLine(); // Очистка буфера
+        scan.nextLine();
 
         ToyPuzzle puzzle = new ToyPuzzle(quantity,
                 toyDetails.getIdentityToy(),
@@ -318,10 +326,15 @@ public class DataBase {
                 break;
             case "2":sortToysBy(toysInRoom);
                 break;
+<<<<<<< Updated upstream
             case "3": DatabaseRunner.menuPanel();
                 break;
+=======
+            case "3":
+                return;
+>>>>>>> Stashed changes
             default:System.out.println("Invalid option");
-                prepareRoomWithToysAdding(toysInRoom);
+            break;
         }
     }
     public void menuAdding(){
