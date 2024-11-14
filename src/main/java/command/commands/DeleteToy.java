@@ -15,10 +15,7 @@ public class DeleteToy implements Command {
     }
 
     public void execute(DataBase dataBase) {
-<<<<<<< Updated upstream
         dataBase.deleteToy(toys);
-=======
-        dataBase.showToys(toys);
->>>>>>> Stashed changes
+        // dataBase.showToys(toys);
     }
 }

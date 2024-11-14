@@ -7,14 +7,7 @@ import java.util.*;
 import static java.util.Collections.*;
 
 public class DataBase {
-<<<<<<< Updated upstream
-    Scanner scan = new Scanner(System.in);
-    public void setScanner(Scanner scanner) {
-        this.scan = scanner;
-    }
-=======
     public Scanner scan = new Scanner(System.in);
->>>>>>> Stashed changes
     public void createToy(List<Toy> toys) {
         System.out.println("Enter identity of the toy: \n");
         System.out.print("1 Blocks\n");
@@ -37,12 +30,7 @@ public class DataBase {
                 createPuzzles(toys);
                 break;
             case "5":
-<<<<<<< Updated upstream
-                DatabaseRunner.menuPanel();
-                break;
-=======
                 return;
->>>>>>> Stashed changes
             default:
                 System.out.println("Invalid choice. Please try again.");
                 createToy(toys);
@@ -326,13 +314,8 @@ public class DataBase {
                 break;
             case "2":sortToysBy(toysInRoom);
                 break;
-<<<<<<< Updated upstream
-            case "3": DatabaseRunner.menuPanel();
-                break;
-=======
             case "3":
                 return;
->>>>>>> Stashed changes
             default:System.out.println("Invalid option");
             break;
         }
