@@ -5,10 +5,11 @@ import command.DataBase;
 import rooms.Room;
 import java.util.List;
 
+
 public class ShowRooms implements Command {
     private List<Room> rooms;
 
-    public ShowRooms(List<Room> rooms, boolean backToTheMenu) {
+    public ShowRooms(List<Room> rooms) {
         this.rooms = rooms;
     }
 

@@ -7,7 +7,7 @@ import java.util.*;
 import static java.util.Collections.*;
 
 public class DataBase {
-    Scanner scan = new Scanner(System.in);
+    public Scanner scan = new Scanner(System.in);
     public void createToy(List<Toy> toys) {
         System.out.println("Enter identity of the toy: \n");
         System.out.print("1 Blocks\n");
@@ -29,6 +29,8 @@ public class DataBase {
             case "4":
                 createPuzzles(toys);
                 break;
+            case "5":
+                return;
             default:
                 System.out.println("Invalid choice. Please try again.");
                 createToy(toys);
@@ -122,7 +124,7 @@ public class DataBase {
 
         System.out.println("Enter quantity of the pieces: \n");
         int quantity = scan.nextInt();
-        scan.nextLine(); // Очистка буфера
+        scan.nextLine();
 
         ToyPuzzle puzzle = new ToyPuzzle(quantity,
                 toyDetails.getIdentityToy(),
@@ -296,6 +298,8 @@ public class DataBase {
                 break;
             case "2":sortToysBy(toysInRoom);
                 break;
+            case "3":
+                return;
             default:System.out.println("Invalid option");
                 prepareRoomWithToysAdding(toysInRoom);
         }

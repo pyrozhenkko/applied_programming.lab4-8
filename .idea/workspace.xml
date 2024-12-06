@@ -5,38 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc5c242-84b4-4d9b-8392-f5945112ba58" name="Changes" comment="№1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/ToyMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/DataBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/FileUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/MenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/ToyMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/CreateToyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/DeleteRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/DeleteToyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/FindToysByFeaturesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/PrepareRoomWithToysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/ShowRoomsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/ShowToysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/command/commands/SortingToysByTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/range/AgeGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/range/IdentityToyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toys/ToyBlocksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toys/ToyCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toys/ToyDollTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/toys/ToyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/CreateRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/commands/CreateRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/CreateToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/commands/CreateToy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/command/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/DeleteToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/commands/DeleteToy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/MenuMoreInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/MenuPanel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/ShowRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/commands/ShowRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/commands/ShowToys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/command/commands/ShowToys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,73 +62,70 @@
     &quot;accountId&quot;: &quot;1a6f32b1-5382-4d7f-b23a-0e271df5515a&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.9" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2nUJzp4OLOxfiFPRcp0V4WkBybs" />
+  <component name="ProjectId" id="2oFGvqHYxqnzuhYsnIufALWvisZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DatabaseRunner.executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.AgeGroupTest.executor": "Run",
-    "JUnit.CreateRoomTest.executor": "Run",
-    "JUnit.DataBaseTest.executor": "Debug",
-    "JUnit.DataBaseTest.testCreateBlocks.executor": "Run",
-    "JUnit.DataBaseTest.testCreateDoll.executor": "Run",
-    "JUnit.DataBaseTest.testCreateRoom.executor": "Run",
-    "JUnit.DataBaseTest.testCreateToy_Car.executor": "Run",
-    "JUnit.DataBaseTest.testCreateToy_Doll.executor": "Run",
-    "JUnit.DataBaseTest.testDeleteToy.executor": "Coverage",
-    "JUnit.DataBaseTest.testDeleteToy_Failure.executor": "Run",
-    "JUnit.DatabaseRunnerTest.executor": "Run",
-    "JUnit.FileUtilsTest.executor": "Run",
-    "JUnit.FileUtilsTest.testSaveRoomsIOException.executor": "Run",
-    "JUnit.RoomTest.executor": "Run",
-    "JUnit.RoomTest.getMaxPriceForToys.executor": "Run",
-    "JUnit.RoomTest.getMaxToyQuantity.executor": "Run",
-    "JUnit.RoomTest.getSize.executor": "Run",
-    "JUnit.RoomTest.getToys.executor": "Run",
-    "JUnit.ToyBlocksTest.executor": "Run",
-    "JUnit.ToyDollTest (1).executor": "Run",
-    "JUnit.ToyDollTest.executor": "Run",
-    "JUnit.ToyTest.executor": "Run",
-    "JUnit.ToyTest.testGetters.executor": "Coverage",
-    "JUnit.command in lab4_8.executor": "Run",
-    "JUnit.java in lab4_8.executor": "Run",
-    "JUnit.toys in lab4_8.executor": "Coverage",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/pp/lab4_8/class_diagram.drawio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/pp/lab4_8/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgeGroupTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CreateRoomCommandTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CreateRoomTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CreateRoomTest.testExecute.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateToyCommandTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CreateToyTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testAddToyToRoom.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateCar.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateDoll.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreatePuzzles.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateRoom.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateRoomAllCases.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateToy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataBaseTest.testCreateToyAllOptions.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testCreateToyWithValidChoice.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testDeleteRoom.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataBaseTest.testDeleteToy.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testFindToyByFeatures.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testPrepareRoomWithToys.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DataBaseTest.testSortToysByPrice.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DataBaseTest.testSortToysByWeight.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeleteRoomTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DeleteToyTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.FileUtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindToysByFeaturesTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.IdentityToyTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MenuTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MenuTest.testPrepareRoomWithToys.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyBlocksTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyCarTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyDollTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyMenuTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyPuzzleTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ToyTest.testSetWeight.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.commands in musicservice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in musicservice.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;roman&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/pp/lab4-8(єбана лаб блять)/lab4_8/src/test/java/command&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pp/lab4-8(єбана лаб блять)/lab4_8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -131,22 +135,29 @@
       <recent name="command" />
       <recent name="range" />
       <recent name="toys" />
-      <recent name="rooms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lab4_8" />
+  <component name="RunManager" selected="JUnit.java in musicservice">
+    <configuration name="DataBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="command" />
+      <option name="MAIN_CLASS_NAME" value="command.DataBaseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DataBaseTest.testCreateRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab4_8" />
+      <module name="musicservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.commands.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,61 +169,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBaseTest.testCreateToy_Car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab4_8" />
+    <configuration name="DataBaseTest.testCreateToy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.commands.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="command" />
       <option name="MAIN_CLASS_NAME" value="command.DataBaseTest" />
-      <option name="METHOD_NAME" value="testCreateToy_Car" />
+      <option name="METHOD_NAME" value="testCreateToy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBaseTest.testCreateToy_Doll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab4_8" />
+    <configuration name="DataBaseTest.testCreateToyAllOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.commands.*" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="command" />
       <option name="MAIN_CLASS_NAME" value="command.DataBaseTest" />
-      <option name="METHOD_NAME" value="testCreateToy_Doll" />
+      <option name="METHOD_NAME" value="testCreateToyAllOptions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBaseTest.testDeleteToy_Failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab4_8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="command.commands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="command" />
-      <option name="MAIN_CLASS_NAME" value="command.DataBaseTest" />
-      <option name="METHOD_NAME" value="testDeleteToy_Failure" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="java in musicservice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicservice" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.java in musicservice" />
+        <item itemvalue="JUnit.DataBaseTest" />
         <item itemvalue="JUnit.DataBaseTest.testCreateRoom" />
-        <item itemvalue="JUnit.DataBaseTest.testDeleteToy_Failure" />
-        <item itemvalue="JUnit.DataBaseTest.testCreateToy_Car" />
-        <item itemvalue="JUnit.DataBaseTest.testCreateToy_Doll" />
+        <item itemvalue="JUnit.DataBaseTest.testCreateToy" />
+        <item itemvalue="JUnit.DataBaseTest.testCreateToyAllOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -227,57 +230,142 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2cc5c242-84b4-4d9b-8392-f5945112ba58" name="Changes" comment="" />
-      <created>1729021987886</created>
+      <changelist id="2cc5c242-84b4-4d9b-8392-f5945112ba58" name="Changes" comment="№1" />
+      <created>1730458144161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729021987886</updated>
-      <workItem from="1729021988760" duration="14993000" />
-      <workItem from="1729100292435" duration="3740000" />
-      <workItem from="1729104244346" duration="1719000" />
-      <workItem from="1729105996010" duration="18174000" />
-      <workItem from="1729530172246" duration="4472000" />
-      <workItem from="1729697510315" duration="7607000" />
-      <workItem from="1729708413806" duration="10749000" />
-      <workItem from="1730135809828" duration="1667000" />
-      <workItem from="1730138233723" duration="620000" />
-      <workItem from="1730150267242" duration="4343000" />
-      <workItem from="1730283015158" duration="9101000" />
+      <updated>1730458144161</updated>
+      <workItem from="1730458145236" duration="1396000" />
+      <workItem from="1730898926219" duration="6124000" />
+      <workItem from="1730905544860" duration="2346000" />
+      <workItem from="1730977462704" duration="4245000" />
+      <workItem from="1731537317825" duration="3844000" />
+      <workItem from="1731544771995" duration="13064000" />
+      <workItem from="1731614633072" duration="12803000" />
+      <workItem from="1731887869587" duration="2656000" />
+      <workItem from="1732189264741" duration="1587000" />
+      <workItem from="1732192040318" duration="12000" />
+      <workItem from="1732469779843" duration="698000" />
+      <workItem from="1732616935514" duration="852000" />
     </task>
-    <task id="LOCAL-00001" summary="№1">
-      <option name="closed" value="true" />
-      <created>1729773964540</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1729773964540</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="№1" />
-    <option name="LAST_COMMIT_MESSAGE" value="№1" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab4_8$toys_in_lab4_8.ic" NAME="toys in lab4_8 Coverage Results" MODIFIED="1729531072304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/lab4_8$MenuTest_testPrepareRoomWithToys.ic" NAME="MenuTest.testPrepareRoomWithToys Coverage Results" MODIFIED="1731597644612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyPuzzleTest.ic" NAME="ToyPuzzleTest Coverage Results" MODIFIED="1731618655592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$CreateRoomTest.ic" NAME="CreateRoomTest Coverage Results" MODIFIED="1731618932023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyBlocksTest.ic" NAME="ToyBlocksTest Coverage Results" MODIFIED="1731618702037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testSortToysByWeight.ic" NAME="DataBaseTest.testSortToysByWeight Coverage Results" MODIFIED="1731599575534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateToyWithValidChoice.ic" NAME="DataBaseTest.testCreateToyWithValidChoice Coverage Results" MODIFIED="1731600851659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyMenuTest.ic" NAME="ToyMenuTest Coverage Results" MODIFIED="1731618578178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DeleteToyTest.ic" NAME="DeleteToyTest Coverage Results" MODIFIED="1731618977434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyTest.ic" NAME="ToyTest Coverage Results" MODIFIED="1731618639875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateToy.ic" NAME="DataBaseTest.testCreateToy Coverage Results" MODIFIED="1731624252537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateRoom.ic" NAME="DataBaseTest.testCreateRoom Coverage Results" MODIFIED="1731624443496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$FileUtilsTest.ic" NAME="FileUtilsTest Coverage Results" MODIFIED="1731616115304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$IdentityToyTest.ic" NAME="IdentityToyTest Coverage Results" MODIFIED="1731549315274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>range.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testAddToyToRoom.ic" NAME="DataBaseTest.testAddToyToRoom Coverage Results" MODIFIED="1731598987096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$CreateToyTest.ic" NAME="CreateToyTest Coverage Results" MODIFIED="1731618920219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$MenuTest.ic" NAME="MenuTest Coverage Results" MODIFIED="1731620664998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testDeleteRoom.ic" NAME="DataBaseTest.testDeleteRoom Coverage Results" MODIFIED="1731546974012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateToyAllOptions.ic" NAME="DataBaseTest.testCreateToyAllOptions Coverage Results" MODIFIED="1731623138328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreatePuzzles.ic" NAME="DataBaseTest.testCreatePuzzles Coverage Results" MODIFIED="1731540953012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testFindToyByFeatures.ic" NAME="DataBaseTest.testFindToyByFeatures Coverage Results" MODIFIED="1731620558624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateCar.ic" NAME="DataBaseTest.testCreateCar Coverage Results" MODIFIED="1731550753148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateDoll.ic" NAME="DataBaseTest.testCreateDoll Coverage Results" MODIFIED="1731598673416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testSortToysByPrice.ic" NAME="DataBaseTest.testSortToysByPrice Coverage Results" MODIFIED="1731600087576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testDeleteToy.ic" NAME="DataBaseTest.testDeleteToy Coverage Results" MODIFIED="1731547421190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyCarTest.ic" NAME="ToyCarTest Coverage Results" MODIFIED="1731618688261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>toys.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$AgeGroupTest.ic" NAME="AgeGroupTest Coverage Results" MODIFIED="1731549341059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>range.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$CreateRoomCommandTest.ic" NAME="CreateRoomCommandTest Coverage Results" MODIFIED="1731618748955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$java_in_musicservice.ic" NAME="java in musicservice Coverage Results" MODIFIED="1732189724459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/lab4_8$CreateRoomTest_testExecute.ic" NAME="CreateRoomTest.testExecute Coverage Results" MODIFIED="1731595852594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$FindToysByFeaturesTest.ic" NAME="FindToysByFeaturesTest Coverage Results" MODIFIED="1731619252588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest.ic" NAME="DataBaseTest Coverage Results" MODIFIED="1731624496236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DeleteRoomTest.ic" NAME="DeleteRoomTest Coverage Results" MODIFIED="1731618952618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$CreateToyCommandTest.ic" NAME="CreateToyCommandTest Coverage Results" MODIFIED="1731618888002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.commands.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$DataBaseTest_testCreateRoomAllCases.ic" NAME="DataBaseTest.testCreateRoomAllCases Coverage Results" MODIFIED="1731622636239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab4_8$ToyDollTest.ic" NAME="ToyDollTest Coverage Results" MODIFIED="1731618672202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>toys.*</FILTER>
+    </SUITE>
   </component>
 </project>
