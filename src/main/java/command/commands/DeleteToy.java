@@ -5,9 +5,9 @@ import command.DataBase;
 import toys.Toy;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class DeleteToy implements Command {
-    private DataBase dataBase;
     private List<Toy> toys;
 
     public DeleteToy(List<Toy> toys) {
@@ -15,6 +15,6 @@ public class DeleteToy implements Command {
     }
 
     public void execute(DataBase dataBase) {
-        dataBase.deleteToy(toys);
+        dataBase.showToys(toys);
     }
 }

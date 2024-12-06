@@ -7,10 +7,7 @@ import java.util.*;
 import static java.util.Collections.*;
 
 public class DataBase {
-    Scanner scan = new Scanner(System.in);
-    public void setScanner(Scanner scanner) {
-        this.scan = scanner;
-    }
+    public Scanner scan = new Scanner(System.in);
     public void createToy(List<Toy> toys) {
         System.out.println("Enter identity of the toy: \n");
         System.out.print("1 Blocks\n");
@@ -33,8 +30,7 @@ public class DataBase {
                 createPuzzles(toys);
                 break;
             case "5":
-                DatabaseRunner.menuPanel();
-                break;
+                return;
             default:
                 System.out.println("Invalid choice. Please try again.");
                 createToy(toys);
@@ -78,10 +74,8 @@ public class DataBase {
                 toyDetails.getPrice(), toyDetails.getWeight(),
                 toyDetails.getSize(), toyDetails.getAgeGroup(),
                 color, isElectric);
-
         toys.add(car);
         FileUtils.saveToys(toys, "toys.dat");
-        DatabaseRunner.menuPanel();
     }
 
     public void createDoll(List<Toy> toys) {
@@ -107,7 +101,6 @@ public class DataBase {
 
         toys.add(doll);
         FileUtils.saveToys(toys, "toys.dat");
-        DatabaseRunner.menuPanel();
     }
 
     public void createBlocks(List<Toy> toys) {
@@ -123,7 +116,6 @@ public class DataBase {
 
         toys.add(blocks);
         FileUtils.saveToys(toys, "toys.dat");
-        DatabaseRunner.menuPanel();
 
     }
 
@@ -132,7 +124,7 @@ public class DataBase {
 
         System.out.println("Enter quantity of the pieces: \n");
         int quantity = scan.nextInt();
-        scan.nextLine(); // Очистка буфера
+        scan.nextLine();
 
         ToyPuzzle puzzle = new ToyPuzzle(quantity,
                 toyDetails.getIdentityToy(),
@@ -144,12 +136,10 @@ public class DataBase {
 
         toys.add(puzzle);
         FileUtils.saveToys(toys, "toys.dat");
-        DatabaseRunner.menuPanel();
 
     }
 
     public void deleteToy(List<Toy> toys) {
-        showToys(toys, false);
         boolean found = false;
         System.out.println("Enter code of the toy to delete");
         String code = scan.nextLine();
@@ -169,7 +159,6 @@ public class DataBase {
             System.out.println("Toy not found");
         }
         FileUtils.saveToys(toys, "toys.dat");
-        DatabaseRunner.menuMoreInfoPanel();
     }
 
     public void createRoom(List<Room> rooms) {
@@ -194,12 +183,11 @@ public class DataBase {
         FileUtils.saveRooms(rooms, "rooms.dat");
 
         System.out.println("Room created successfully!");
-        DatabaseRunner.menuPanel();
     }
 
 
     public void deleteRoom(List<Room> rooms) {
-        showRooms(rooms, false);
+        showRooms(rooms);
         boolean found = false;
         System.out.println("Enter name of the room to delete");
         String roomName = scan.nextLine();
@@ -219,10 +207,9 @@ public class DataBase {
             System.out.println("Room not found");
         }
         FileUtils.saveRooms(rooms, "rooms.dat");
-        DatabaseRunner.menuMoreInfoPanel();
     }
 
-    public void showToys(List<Toy> toys, boolean backToTheMenu) {
+    public void showToys(List<Toy> toys) {
         int temp = 1;
         if (toys.isEmpty()) {
             System.out.println("\tToys list is empty");
@@ -234,12 +221,9 @@ public class DataBase {
                 temp++;
             }
         }
-        if (backToTheMenu) {
-            DatabaseRunner.menuPanel();
-        }
     }
 
-    public void showRooms(List<Room> rooms, boolean backToTheMenu) {
+    public void showRooms(List<Room> rooms) {
         if (rooms.isEmpty()) {
             System.out.println("\tRooms list is empty");
         } else {
@@ -250,14 +234,10 @@ public class DataBase {
                 temp++;
             }
         }
-        if(backToTheMenu) {
-            DatabaseRunner.menuPanel();
-        }
-
     }
 
     public void prepareRoomWithToys(List<Toy> toys, List<Room> rooms) {
-        showRooms(rooms, false);
+        showRooms(rooms);
         System.out.println("Choose Room(name of the room):");
         String roomName = scan.nextLine();
         Room selectedRoom = null;
@@ -274,7 +254,7 @@ public class DataBase {
             return;
         }
 
-        showToys(toys, false);
+        showToys(toys);
         System.out.println("Enter toy codes separated by space:");
         List<Toy> chosenToys = chooseToys(toys);
         double totalPrice = calculateTotalPrice(chosenToys);
@@ -318,8 +298,8 @@ public class DataBase {
                 break;
             case "2":sortToysBy(toysInRoom);
                 break;
-            case "3": DatabaseRunner.menuPanel();
-                break;
+            case "3":
+                return;
             default:System.out.println("Invalid option");
                 prepareRoomWithToysAdding(toysInRoom);
         }
@@ -358,9 +338,6 @@ public class DataBase {
                 break;
             case "2":
                 sortingToysByWeight(toys);
-                break;
-            case "3":
-                DatabaseRunner.menuPanel();
                 break;
             default:
                 System.out.println("Invalid choice");

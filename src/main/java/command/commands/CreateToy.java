@@ -11,11 +11,9 @@ public class CreateToy implements Command {
     public CreateToy(List<Toy> toys) {
         this.toys = toys;
     }
+
     @Override
     public void execute(DataBase dataBase) {
         dataBase.createToy(toys);
-    }
-    public void getInfo(){
-        System.out.println("Create a toy");
     }
 }
